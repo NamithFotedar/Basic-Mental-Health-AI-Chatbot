@@ -1,0 +1,255 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good evening",
+        "how are you",
+        "what's up",
+        "sup",
+        "yo",
+        "hiya",
+        "greetings"
+      ],
+      "responses": [
+        "Hello! How are you feeling today?",
+        "Hi there! How can I support you today?",
+        "Hello! I'm here to listen. How are you doing?",
+        "Hi! How are you feeling right now?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "farewell",
+        "gotta go",
+        "have to leave",
+        "talk to you later",
+        "good night",
+        "till next time"
+      ],
+      "responses": [
+        "Take care of yourself! Remember, I'm here anytime you need to talk.",
+        "Goodbye! I hope our conversation was helpful. Feel free to come back anytime.",
+        "Take care! Remember to be kind to yourself today.",
+        "I'm here if you need to talk again. Wishing you well!"
+      ]
+    },
+    {
+      "tag": "gratitude",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "appreciate it",
+        "helpful",
+        "that helps",
+        "thank you so much",
+        "thanks a lot",
+        "i'm grateful",
+        "that was helpful"
+      ],
+      "responses": [
+        "You're welcome! I'm glad I could help.",
+        "I'm here for you anytime you need support.",
+        "You're welcome. Is there anything else you'd like to talk about?",
+        "I'm happy I could be of assistance. How else can I support you today?"
+      ]
+    },
+    {
+      "tag": "anxiety",
+      "patterns": [
+        "i feel anxious",
+        "anxiety",
+        "worried",
+        "can't stop worrying",
+        "nervous",
+        "always on edge",
+        "panic attack",
+        "stressed out",
+        "stress",
+        "feeling overwhelmed",
+        "constant worry",
+        "racing thoughts",
+        "restless",
+        "fear"
+      ],
+      "responses": [
+        "I understand anxiety can be overwhelming. Try taking slow, deep breaths - breathe in for 4 counts, hold for 2, and exhale for 6. Would you like to explore some other coping strategies?",
+        "Anxiety is challenging to deal with. Many find it helpful to practice mindfulness or grounding techniques when feeling anxious. Would you like me to share some simple exercises?",
+        "I'm sorry you're feeling anxious. Sometimes naming specific worries can help process them. Would you feel comfortable sharing what's on your mind?",
+        "When anxiety hits, it can help to engage your senses. Try the 5-4-3-2-1 technique: name 5 things you see, 4 things you can touch, 3 things you hear, 2 things you smell, and 1 thing you taste. Would you like more coping strategies?"
+      ]
+    },
+    {
+      "tag": "depression",
+      "patterns": [
+        "i feel depressed",
+        "depression",
+        "feeling down",
+        "hopeless",
+        "no motivation",
+        "can't get out of bed",
+        "nothing matters",
+        "sad all the time",
+        "empty inside",
+        "feel worthless",
+        "no energy",
+        "don't enjoy anything anymore",
+        "lost interest"
+      ],
+      "responses": [
+        "I'm sorry you're feeling this way. Depression can make everything feel more difficult. Have you been able to talk to a healthcare provider about these feelings?",
+        "Living with depression is really tough. Small steps like getting fresh air or connecting with someone you trust can sometimes help. What's one tiny positive thing you could do today?",
+        "It takes courage to acknowledge these feelings. Remember that depression often lies to us about our worth and possibilities. Would it help to talk about specific challenges you're facing?",
+        "Depression can be isolating, but you're not alone in this experience. Many people find that a combination of professional support, self-care, and connection with others helps. What kind of support do you currently have?"
+      ]
+    },
+    {
+      "tag": "sleep_issues",
+      "patterns": [
+        "can't sleep",
+        "insomnia",
+        "trouble sleeping",
+        "wake up a lot",
+        "nightmares",
+        "always tired",
+        "sleep problems",
+        "exhausted",
+        "sleeping too much",
+        "not sleeping enough"
+      ],
+      "responses": [
+        "Sleep problems can significantly affect mental health. Creating a consistent bedtime routine and limiting screen time before bed can help. Would you like some more sleep hygiene tips?",
+        "I understand how frustrating sleep issues can be. Have you noticed any patterns or triggers that might be affecting your sleep?",
+        "Sleep difficulties are common when dealing with stress or mental health challenges. Some find relaxation techniques like progressive muscle relaxation helpful. Would you like to learn more about that?",
+        "Both sleeping too much and too little can be symptoms of underlying concerns. Have you discussed your sleep patterns with a healthcare provider?"
+      ]
+    },
+    {
+      "tag": "self_care",
+      "patterns": [
+        "how to take care of myself",
+        "self care",
+        "feel better",
+        "mental health tips",
+        "wellbeing",
+        "how to cope",
+        "coping skills",
+        "healthy habits",
+        "improve mental health",
+        "help myself",
+        "what should I do"
+      ],
+      "responses": [
+        "Self-care is essential for mental health. This includes basics like regular meals, hydration, movement, and rest. Could you identify one area you might focus on improving today?",
+        "Creating small, consistent self-care habits can make a big difference. This might include taking short breaks, connecting with loved ones, or practicing mindfulness. What kinds of activities help you feel restored?",
+        "Self-care looks different for everyone. It might include setting boundaries, pursuing meaningful activities, or simply giving yourself permission to rest. What does self-care currently look like for you?",
+        "Taking care of your mental health includes paying attention to physical needs, emotional expression, social connection, and finding meaning. Which of these areas feels most important to address right now?"
+      ]
+    },
+    {
+      "tag": "relationships",
+      "patterns": [
+        "relationship problems",
+        "friend issues",
+        "family conflict",
+        "partner problems",
+        "lonely",
+        "no friends",
+        "difficulty connecting",
+        "social anxiety",
+        "trust issues",
+        "afraid of rejection",
+        "toxic relationship",
+        "breakup",
+        "divorce"
+      ],
+      "responses": [
+        "Relationship challenges can significantly impact our wellbeing. Healthy relationships involve respect, boundaries, and communication. Would you like to talk more about a specific relationship concern?",
+        "I'm sorry you're experiencing relationship difficulties. Sometimes writing down our thoughts before difficult conversations can help. Have you tried expressing your feelings to the person involved?",
+        "Feeling connected to others is an important human need. Building and maintaining relationships takes effort and vulnerability. What specific aspects of relationships do you find challenging?",
+        "Both loneliness and relationship conflict can be painful experiences. Sometimes talking with a therapist can help develop communication skills and work through patterns. Have you considered seeking professional guidance?"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "no motivation",
+        "can't get anything done",
+        "procrastinating",
+        "lazy",
+        "stuck",
+        "unproductive",
+        "lack of energy",
+        "can't focus",
+        "losing interest",
+        "too overwhelmed to start",
+        "executive dysfunction"
+      ],
+      "responses": [
+        "Motivation challenges are common and don't mean you're lazy. Starting with very small steps and celebrating those wins can help. Could you identify one tiny first step toward something important to you?",
+        "When we're struggling with mental health, motivation and energy are often affected. Breaking tasks into smaller pieces and using tools like timers can sometimes help. What task feels most challenging right now?",
+        "Many people find that waiting for motivation doesn't work as well as creating structure and habits. Setting up regular routines and external accountability can help. What strategies have you tried before?",
+        "Difficulty with motivation can be a symptom of mental health conditions like depression or ADHD. Have you spoken with a healthcare provider about these challenges?"
+      ]
+    },
+    {
+      "tag": "therapy",
+      "patterns": [
+        "need a therapist",
+        "find therapy",
+        "counseling",
+        "mental health professional",
+        "how to get help",
+        "treatment options",
+        "psychiatrist",
+        "psychologist",
+        "therapy expensive",
+        "can't afford therapy",
+        "online therapy"
+      ],
+      "responses": [
+        "Seeking professional support is a strong, positive step. Would you like me to share some general information about finding a therapist or counselor?",
+        "Therapy can be very beneficial for many people. There are different types like CBT, DBT, and more that address different needs. Have you had any experience with therapy before?",
+        "Finding affordable mental health care can be challenging. Some options include community mental health centers, therapists who offer sliding scale fees, or online services. Would you like information about any of these options?",
+        "When looking for a therapist, it's important to find someone you feel comfortable with. It's okay to talk to a few providers before deciding. What qualities would be important to you in a therapist?"
+      ]
+    },
+    {
+      "tag": "praise_chatbot",
+      "patterns": [
+        "you're helpful",
+        "you're a good listener",
+        "I like talking to you",
+        "you understand me",
+        "glad you're here",
+        "you're smart",
+        "good chatbot",
+        "you're better than other bots"
+      ],
+      "responses": [
+        "Thank you for saying that. I'm designed to be supportive, though I'm just a tool and not a replacement for human connection or professional help. How else can I support you today?",
+        "I appreciate your kind words. My purpose is to provide a space where you can express yourself. Is there something specific you'd like to explore further?",
+        "I'm glad you find our conversation helpful. Remember that I'm here anytime you need to process your thoughts or feelings. What else is on your mind today?",
+        "Thank you. While I aim to be supportive, remember that connecting with real people in your life is also important for mental wellbeing. How is your support system currently?"
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm here to listen. Could you tell me more about how you're feeling?",
+        "I want to understand better. Can you share more about what's going on?",
+        "I'm not sure I fully understood. Could you share a bit more about your situation?",
+        "Thank you for sharing that with me. Would you like to explore this topic further?"
+      ]
+    }
+  ]
+}

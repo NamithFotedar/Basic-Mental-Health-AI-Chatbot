@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Support Bot</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2><i class="fas fa-comments"></i> Mental Health Support Bot</h2>
+            <p>I'm here to listen and provide support. I'm not a replacement for professional help.</p>
+        </div>
+        
+        <div class="disclaimer">
+            <p><strong>Disclaimer:</strong> This is an AI chatbot and not a substitute for professional mental health services. 
+            If you're in crisis, please call the National Suicide Prevention Lifeline at 988.</p>
+            <button id="resources-btn">Mental Health Resources</button>
+        </div>
+        
+        <div class="chat-box" id="chat-box">
+            <div class="bot-message">
+                Hi there! I'm here to listen and provide support with mental health concerns. How are you feeling today?
+            </div>
+        </div>
+        
+        <div class="input-area">
+            <textarea id="user-input" placeholder="Type your message here..." rows="2"></textarea>
+            <button id="send-btn"><i class="fas fa-paper-plane"></i></button>
+        </div>
+        
+        <div class="feedback-area">
+            <p>Was this conversation helpful?</p>
+            <div class="feedback-buttons">
+                <button id="helpful-btn"><i class="fas fa-thumbs-up"></i> Yes</button>
+                <button id="not-helpful-btn"><i class="fas fa-thumbs-down"></i> No</button>
+            </div>
+        </div>
+    </div>
+    
+    <div id="feedback-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Tell us more about your experience</h3>
+            <textarea id="feedback-text" rows="4" placeholder="Your feedback helps us improve..."></textarea>
+            <button id="submit-feedback">Submit Feedback</button>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
